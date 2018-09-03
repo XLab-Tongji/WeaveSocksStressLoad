@@ -22,6 +22,7 @@ locust -f ./locustfile.py -c 1 -r 1 -n 3 --no-web --only-summary
 2. 总的请求数
 
 ### API
-1. `/scenario1/<current_num>/<total_num>`
-2. `/scenario2/<current_num>/<total_num>`
-3. `/scenario3/<current_num>/<total_num>`
+1. `/all/<host>/<current_num>/<total_num>`
+2. `/login/<host>/<current_num>/<total_num>`
+3. `/browse/<host>/<current_num>/<total_num>`
+4. `/test`
